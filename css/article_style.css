@@ -1,0 +1,248 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: gainsboro;
+    padding: 10px;
+    font-family: Arial;
+}
+
+.main {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 1000px;
+    margin: 20px auto;
+    background-color: white;
+    padding: 20px;
+    overflow: hidden;
+}
+
+header {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    background-color: #2ecc71;
+    color: white;
+    padding: 20px;
+}
+
+header h2 {
+    margin-bottom: 7px;
+    font-size: 35px;
+}
+
+.navigasi ul {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    list-style-type: none;
+    margin: 0;
+    margin-bottom: 10px;
+    padding: 0;
+    overflow: hidden;
+    background-color: #27ae60;
+    font-family: Aria l, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.navigasi li {
+    float: left;
+}
+
+.navigasi li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+.navigasi li a:hover {
+    background-color: #2ecc71;
+    transition-duration: 1s;
+}
+
+.kotak
+{
+    padding: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.kotak h3 {
+    background-color: #27ae60;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 13px;
+}
+
+.kotak img
+{
+    float: left;
+    width: 30%;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+.kotak p {
+    margin-top: 20px;
+    text-align:justify;
+    width: 100%;
+    color: #2ecc71;
+}
+
+
+.artikel {
+    width: 680px;
+    margin-right: 10px;
+    float: left;
+}
+
+.artikel h3 {
+    background: none;
+    color: #27ae60;
+    margin-bottom: 0;
+}
+
+.genre
+{
+    color: gray;
+    text-align: right;
+    font-size: 12px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
+button {
+    display: block;
+    text-decoration: bold;
+    padding: 10px;
+    width: 254px;
+    height: 50px;
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+    background-color: #27ae60;
+    font-size: 14pt;
+}
+
+button:hover {
+    background-color: #043801;
+    transition-duration: 1s;
+}
+
+.dark-mode {
+  background-color: black;
+  color: white;
+  /*box-shadow: 0 4px 8px 0 rgba(0,255,0,0.3);*/
+}
+
+.dark-mode .main {
+  background-color: #969695;
+  color: white;
+}
+
+.dark-mode header {
+  background-color: #757574;
+  color: white;
+}
+
+.dark-mode .navigasi ul{
+  background-color: black;
+  color: white;
+}
+
+.dark-mode .kotak {
+  background-color: black;
+  color: white;
+}
+
+.dark-mode .kotak h3{
+    background-color: #757574;
+    color: white;
+}
+
+.dark-mode .kotak p{
+  color: white;
+}
+
+.dark-mode .column {
+  background-color: #969695;
+}
+
+.dark-mode .column p{
+  color: white;
+}
+
+.dark-mode .column h3{
+  color: white;
+}
+
+.dark-mode .content {
+  background-color: #757574;
+}
+
+.dark-mode .aside {
+  background-color: black;
+  color: white;
+}
+
+.dark-mode .list-artikel ul li a{
+  color: white;
+}
+
+.dark-mode footer {
+  background-color: #757574;
+  color: white;
+}
+
+.dark-mode button {
+    background-color: #043801;
+    color: white;
+}
+
+.dark-mode button:hover {
+    background-color: #27ae60;
+    transition-duration: 1s;
+}
+
+.dark-mode .content .container .overlay {
+  background-color: #043801;
+}
+
+.aside {
+    width: 255px;
+    float: right;
+}
+
+.artikel, .aside {
+    margin-bottom: 15px;
+}
+
+footer {
+    clear: both;
+    background-color: #27ae60;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+.list-artikel ul {
+    list-style-type: none;
+}
+
+.list-artikel ul li a {
+    text-decoration: none;
+    display: block;
+    padding: 13px;
+    border-bottom: 1px solid #044601;
+    margin-bottom: 12px;
+    color: #2ecc71;
+}
+
+.list-artikel ul li a:hover {
+    color: #27ae60;
+    border-bottom: 5px double green;
+    transition-duration: 1s;
+}
